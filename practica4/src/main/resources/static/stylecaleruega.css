@@ -1,0 +1,99 @@
+
+.titulo-principal {
+    font-size: 40px;
+    color: #fff;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #00d;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 20px;
+}
+
+.contenedor div {
+  width: 30%;
+}
+
+button {
+  background-color: #66b3ff;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #00d;
+}
+
+form.formulario {
+    display: table;
+}
+
+div.formulario {
+    display: table-row;
+    padding-bottom: 20px;
+}
+
+label,
+input {
+    display: table-cell;
+    padding: 10px;
+}
+
+label {
+    padding-right: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    grid-template-areas: "text image";
+    padding: 10px;
+}
+
+.image {
+    grid-area: image;
+}
+
+.text {
+    grid-area: text;
+}
+
+.ad {
+  align-self: center;
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 0 5px #ddd;
+}
+
+.ad img {
+  width: 100%;
+  height: auto;
+}
+
+.ad h3 {
+  margin: 10px;
+  font-size: 1.2em;
+}
+
+.ad p {
+  margin: 5px;
+  font-size: 0.9em;
+}
